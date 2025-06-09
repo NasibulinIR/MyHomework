@@ -19,9 +19,9 @@ class Store:
 
     def get_price(self, name):
         if name in self.items:
-            return self.items[name]  # Возвращает только цену (число)
+            return self.items[name]
         else:
-            return None  #
+            return None
 
     def update_price(self, name, new_price):
         if name in self.items:
