@@ -44,6 +44,16 @@ store1.add_product('Яблоки', 105)
 store1.add_product('Бананы', 122)
 store1.add_product('Помидоры', 235)
 
+store2.add_product('Молоко', 104)
+store2.add_product('Яблоки', 99)
+store2.add_product('Бананы', 118)
+store2.add_product('Помидоры', 234)
+
+store3.add_product('Молоко', 102)
+store3.add_product('Яблоки', 105)
+store3.add_product('Бананы', 120)
+store3.add_product('Помидоры', 222)
+
 store1.update_price('Яблоки', 123)
 
 store1.remove_product('Бананы')
