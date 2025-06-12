@@ -1,0 +1,7 @@
+animal,Bird,Кеша,1
+animal,Mammal,Мурка,7
+animal,Reptile,Аркадий,4
+animal,Bird,Чижик,3
+employee,Василий Петрович,Ветеринар
+employee,Лариса Ивановна,Зоолог
+employee,Сергей Анатольевич,Завхоз

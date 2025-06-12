@@ -45,6 +45,7 @@ admin1.add_user(admin1)
 admin1.add_user(user1)
 admin1.add_user(user2)
 admin1.add_user(user3)
+print(user1.get_name())
 
 admin1.remove_user(4)
 
