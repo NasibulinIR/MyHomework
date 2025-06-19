@@ -1,7 +1,14 @@
-animal,Bird,Кеша,1
-animal,Mammal,Мурка,7
-animal,Reptile,Аркадий,4
-animal,Bird,Чижик,3
+animal,Bird,Кеша,1,Попугай
+animal,Mammal,Мурка,7,Кошка
+animal,Reptile,Аркадий,4,Зеленый крокодил
+animal,Bird,Чижик,3,Стриж
+animal,Bird,Кеша,1,Попугай
+animal,Mammal,Мурка,7,Кошка
+animal,Reptile,Аркадий,4,Зеленый крокодил
+animal,Bird,Чижик,3,Стриж
+employee,Василий Петрович,Ветеринар
+employee,Лариса Ивановна,Зоолог
+employee,Сергей Анатольевич,Завхоз
 employee,Василий Петрович,Ветеринар
 employee,Лариса Ивановна,Зоолог
 employee,Сергей Анатольевич,Завхоз
