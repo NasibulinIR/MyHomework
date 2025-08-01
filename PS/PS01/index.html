@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Кино</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333
+        }
+        header {
+            background: linear-gradient(250deg, #2c3e50, #1a1a2e);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3.5em;
+        }
+        nav {
+            background: linear-gradient(135deg, #006400, #228B22);
+            padding: 12px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h3 {
+            margin: 0;
+            font-size 12em;
+        }
+        .movie-card {
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .movie-card img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .rating {
+            color: #e67e22;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мир Кино</h1>
+        <h3>Сайт для настоящих киноманов</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#news">Новинки</a></li>
+            <li><a href="#classics">Классика</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="news">
+            <h2>Новинки кинопроката</h2>
+
+            <div class="movie-card">
+                <h3>Дюна: Часть вторая (2024)</h3>
+                <img src="img/dune.jpg" width="250" height="325" alt="Постер фильма Дюна: Часть вторая">
+                <p>Герцог Пол Атрейдес присоединяется к фрименам, чтобы стать Муад Дибом, одновременно пытаясь остановить наступление войны.</p>
+                <p class="rating">Рейтинг IMDb: 8.5/10</p>
+                <p><a href="https://www.imdb.com/title/tt15239678/" target="_blank">Подробнее на IMDb</a></p>
+            </div>
+
+            <div class="movie-card">
+                <h3>Конклав (2024)</h3>
+                <img src="img/conclave.webp" width="250" height="325" alt="Постер фильма Конклав">
+                <p>После внезапной смерти Папы кардиналы готовятся к конклаву — выборам нового главы католической
+                    церкви. Руководство и организацию процедуры поручают кардиналу Лоуренсу. Вскоре он узнаёт
+                    несколько не самых приятных тайн о главных кандидатах на место Папы, а это может кардинально
+                    повлиять на результат выборов и пошатнуть основы церкви.</p>
+                <p class="rating">Рейтинг IMDb: 7.4/10</p>
+                <p><a href="https://www.imdb.com/title/tt20215234/" target="_blank">Подробнее на IMDb</a></p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="classics">
+            <h2>Классика кино</h2>
+
+            <div class="movie-card">
+                <h3>Крёстный отец (1972)</h3>
+                <img src="img/godfather.webp" width="250" height="325" alt="Постер фильма Крёстный отец">
+                <p>Легендарная криминальная драма Фрэнсиса Форда Копполы о семье Корлеоне. Мастерский актерский состав во главе с Марлоном Брандо и Аль Пачино.</p>
+                <p class="rating">Рейтинг IMDb: 9.2/10</p>
+                <p><a href="https://www.imdb.com/title/tt0068646/" target="_blank">Подробнее на IMDb</a></p>
+            </div>
+
+            <div class="movie-card">
+                <h3>Гладиатор (2000)</h3>
+                <img src="img/gladiator.webp" width="250" height="325" alt="Постер фильма Титаник">
+                <p>Отважный генерал, ставший рабом, мстит империи. Культовая историческая драма Ридли Скотта с пятью «Оскарами».</p>
+                <p class="rating">Рейтинг IMDb: 8.5/10</p>
+                <p><a href="https://www.imdb.com/title/tt0172495/"  target="_blank">Подробнее на IMDb</a></p>
+            </div>
+        </section>
+
+        <hr>
+
+
+    </main>
+
+    <footer id="contacts">
+        <p>© 2025 Мир Кино. Все права защищены.</p>
+        <p>Свяжитесь с нами: <a href="mailto:info@kinoworld.ru">info@kinoworld.ru</a></p>
+    </footer>
+</body>
+</html>
