@@ -14,3 +14,4 @@ class LampsParseSpider(scrapy.Spider):
                 'Цена':lamp.css('div.pY3d2 span::text').get(),
                 'Ссылка на товар':lamp.css('a').attrib['href']
             }
+# .CVS сформировал через команду scrapy crawl lampsparse -o lamps.csv в консоли терминала
