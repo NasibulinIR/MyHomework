@@ -1,0 +1,52 @@
+body {
+    background: url('https://media.newyorker.com/photos/59096ea41c7a8e33fb38e78e/master/w_1920,c_limit/Twilley-TGIFriday-Singles-Bar.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 25px 15px rgba(0, 0, 0, 0.32);
+}
+
+.carousel-container {
+    max-width: 400px;
+    margin: 0 auto 40px;
+}
+
+.carousel-item {
+    margin-top: 30px;
+    height: 590px;
+}
+
+.carousel-item img {
+    width: 400px;
+    height: 590px;
+    object-fit: contain;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.card-img-top {
+height: 220px;
+object-fit: contain;
+}
+
+.card-title {
+    font-weight: bold;
+    border-bottom: 2px solid #A90606FF;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+p.foot {
+    margin-top: 40px;
+}
