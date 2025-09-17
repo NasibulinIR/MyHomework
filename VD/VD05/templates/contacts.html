@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title%}
+    Контакты
+{% endblock %}
+
+{% block content%}
+<section class="contacts-header">
+    <div class="container">
+        <h2>Свяжитесь с нами</h2>
+        <p>Мы всегда рады вашим вопросам и предложениям</p>
+    </div>
+</section>
+<section class="contact-info">
+    <div class="contact-info-container">
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h3>📧 Email</h3>
+                <p>shelest@stranits.com</p>
+            </div>
+            <div class="contact-item">
+                <h3>📞 Телефон</h3>
+                <p>+7 (495) 123-45-67</p>
+            </div>
+            <div class="contact-item">
+                <h3>📍 Адрес</h3>
+                <p>Москва, ул. Книжная, д. 15</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Напишите нам</h3>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Ваш email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

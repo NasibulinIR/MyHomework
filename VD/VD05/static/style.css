@@ -1,0 +1,184 @@
+body {
+    background: burlywood;
+    font-family: "Book Antiqua", Tahoma, Arial, serif;
+    padding-top: 110px;
+    margin: 0;
+}
+
+section {
+    padding: 20px 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+header, footer {
+    background: rgba(139, 69, 19, 0.9) url("img/700.jpg");
+    background-blend-mode: overlay;
+}
+
+
+ul.navbar-nav {
+    display: flex;
+    background: sandybrown;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+
+section.intro {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+}
+
+section.blog-header{
+    padding: 25px 0 0 0;
+}
+
+.blog-header-container {
+    padding: 15px 70px 0 ;
+}
+
+.blog-posts {
+    padding: 0;
+}
+
+.post-meta {
+    display: flex;
+    font-size: 12px;
+
+}
+
+.features {
+    padding: 0 110px;
+}
+
+section div h5 {
+    font-family: "Segoe Print", "Segoe Script", serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+section.intro div p {
+    font-family: "Segoe Print", "Segoe Script", serif;
+}
+
+
+footer div p {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    position: sticky;
+    bottom: -30px;
+    left: 20px;
+    padding-bottom: 0;
+}
+
+div.posts-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.contacts-header {
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-grid {
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    gap: 20px;
+}
+
+.contact-form {
+    padding-left: 150px;
+}
+
+.form-group {
+    width: 500px
+}
+
+input, textarea {
+    width: 495px;
+}
+
+article.blog-post {
+    padding: 0 0 20px;
+}
+div.about-hero {
+    padding-top: 30px;
+}
+
+img.img-fluid.rounded.shadow {
+    width: 80%;
+}
+
+div.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.team-member img {
+    border-radius: 120px;
+    width: 50%;
+}
+
+div.team-member h4,div.team-member p {
+    display: flex;
+    justify-content: center;
+}
+
+div.bg-bottom {
+    background: #411a04;
+    padding: 30px 0 30px;
+}
+
+.bg-bottom h2, .bg-bottom p {
+    color: white;
+}
+
+input.form-control {
+    width: auto;
+}
